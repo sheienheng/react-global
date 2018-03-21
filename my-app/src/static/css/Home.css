@@ -1,0 +1,198 @@
+.HomeHead{
+    width: 100%;
+    height: 50px;
+    background-color: #e9203d;
+    display: flex;
+}
+.HomeHead>a,.HomeHead>span{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    margin:0 5px;
+    line-height: 50px;
+}
+.HomeHead>a{
+    width: 55px;
+    text-align: center;
+    margin-left: 10px;
+}
+.HomeHead>span{
+    width: 30px;
+}
+.HomeHead>span a{
+    color: white;
+}
+.HomeHead i{
+    margin: 5px;
+}
+.HomeHead .head-input{
+    width: calc(100% - 100px);
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    line-height: 30px;
+    position: relative;
+    text-align: left;
+}
+.HomeHead .head-input i{
+    position: absolute;
+    left: 10px;
+    top:5px;
+}
+.HomeHead .head-input input{
+    width: 85%;
+    height: 20px;
+    border: none;
+    outline: none;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.Home{
+    /*background-color: ;*/
+}
+.Home .banner{
+    width: 100%;
+    height: 190px;
+    position: relative;
+    text-align: center;
+}
+.Home .banner .classity{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.Home .banner .classity ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+.Home .banner .classity ul a{
+    display: inline-block;
+    width: 20%;
+}
+.Home .banner .classity ul  li{
+    width: 100%;
+    height: 70px;
+    /*background-color: url('../img/1.png');*/
+}
+.Home .banner .classity ul  li img{
+    width: 50px;
+    height: 50px;
+}
+.Home .banner .classity ul  li p{
+    color: #666;
+    font-size: 14px;
+}
+.Home .banner .light{
+    width: 100%;
+    position: absolute;
+    height: 20px;
+    bottom: 10px;
+    text-align: center;
+}
+.Home .banner .light span{
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    margin: 0 3px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+.Home .banner .light span.active{
+    background-color: #e9203d;
+}
+.Home .interval{
+    height: 15px;
+    background-color: #f1f1f1;
+}
+.Home .promotion h2{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-bottom: 1px solid #f1f1f1;
+    text-align: left;
+}
+.Home .container{
+    width: 100%;
+    padding: 10px 15px;
+}
+.Home .proList{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Home .proList a{
+    display: inline-block;
+    width: 33.3%;
+    height: 140px;
+}
+.Home .proList a img{
+    width: 100%;
+    height: 140px;
+}
+.Home .like{
+    width: 100%;
+}
+.Home .like h2{
+    font-size: 16px;
+    color: #666;
+    padding: 10px 15px;
+    background-color:#f1f1f1;
+    text-align: left;
+}
+.Home .like .like-list a{
+    display: inline-block;
+    width: 100%;
+}
+.Home .like .like-list li{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.Home .like .like-list li>.left img{
+    width: 120px;
+    height: 90px;
+}
+.Home .like .like-list li>.right{
+    width: calc(100% - 120px);
+    padding: 0 10px;
+}
+.Home .like .like-list li>.right .right-head{
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.Home .like .right-head h3{
+    font-size: 18px;
+    line-height: 1;
+    color: #333;
+}
+.Home .like .right .right-head span{
+    font-size: 13px;
+    line-height: 18px;
+    color: #999;
+}
+.Home .like .right>p{
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    text-align: left
+}
+.Home .like .right .right-foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.Home .like .right .right-foot span:first-child{
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 900;
+    color: #e9203d;
+}
+.Home .like .right .right-foot span:last-child{
+    font-size: 13px;
+    line-height: 18px;
+    color: #999;
+}

@@ -1,0 +1,50 @@
+.HomeHead{
+    width: 100%;
+    height: 50px;
+    background-color: #e9203d;
+    display: flex;
+}
+.HomeHead>a,.HomeHead>span{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    margin:0 5px;
+    line-height: 50px;
+}
+.HomeHead>a{
+    width: 55px;
+    text-align: center;
+    margin-left: 10px;
+}
+.HomeHead>span{
+    width: 30px;
+}
+.HomeHead>span a{
+    color: white;
+}
+.HomeHead i{
+    margin: 5px;
+}
+.HomeHead .head-input{
+    width: calc(100% - 100px);
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    line-height: 30px;
+    position: relative;
+    text-align: left;
+}
+.HomeHead .head-input i{
+   position: absolute;
+    left: 10px;
+    top:5px;
+}
+.HomeHead .head-input input{
+    width: 85%;
+    height: 20px;
+    border: none;
+    outline: none;
+    margin: 0;
+    margin-left: 30px;
+}

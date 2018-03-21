@@ -1,0 +1,111 @@
+.Search .HomeHead{
+    width: 100%;
+    height: 50px;
+    background-color: #e9203d;
+    display: flex;
+}
+.Search .HomeHead>a,.HomeHead>span{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    margin:0 5px;
+    line-height: 50px;
+}
+/*.HomeHead>a{*/
+    /*width: 30px;*/
+    /*text-align: center;*/
+    /*margin-left: 10px;*/
+/*}*/
+.Search .HomeHead>span{
+    width: 30px;
+}
+.Search .HomeHead>span a{
+    color: white;
+}
+.Search .HomeHead i{
+    margin: 5px;
+}
+.Search .HomeHead .head-input{
+    width: calc(100% - 60px);
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    line-height: 30px;
+    position: relative;
+    text-align: left;
+}
+.HomeHead .head-input i{
+    position: absolute;
+    left: 10px;
+    top:5px;
+}
+.Search .HomeHead .head-input input{
+    width: 90%;
+    height: 20px;
+    border: none;
+    outline: none;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.Search .search-list{
+    padding: 10px 15px;
+}
+
+.Search .search-list a{
+    display: inline-block;
+    width: 100%;
+}
+.Search .search-list li{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    border-bottom: 1px solid #f1f1f1;
+}
+.Search .search-list li>.left img{
+    width: 120px;
+    height: 90px;
+}
+.Search .search-list li>.right{
+    width: calc(100% - 120px);
+    padding: 0 10px;
+}
+.Search .search-list li>.right .right-head{
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.Search .search-list .right-head h3{
+    font-size: 18px;
+    line-height: 1;
+    color: #333;
+}
+.Search .search-list .right .right-head span{
+    font-size: 13px;
+    line-height: 18px;
+    color: #999;
+}
+.Search .search-list .right>p{
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    text-align: left
+}
+.Search .search-list .right .right-foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.Search .search-list .right .right-foot span:first-child{
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 900;
+    color: #e9203d;
+}
+.Search .search-list .right .right-foot span:last-child{
+    font-size: 13px;
+    line-height: 18px;
+    color: #999;
+}

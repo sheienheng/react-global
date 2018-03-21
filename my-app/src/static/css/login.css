@@ -1,0 +1,65 @@
+.Login .Header{
+    height: 50px;
+    background-color: #e9203d;
+    color: #fff;
+    padding: 15px 10px;
+    text-align: center;
+    position: relative;
+}
+.Login .Header a{
+    width: 16px;
+    height: 16px;
+    color: inherit;
+    position: absolute;
+    left: 10px;
+}
+.Login .Header a i{
+    font-size: 16px;
+}
+.Login .Header h1{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+}
+.Login .inputs{
+    padding: 160px 56px 0 56px;
+    background-color: #f1f1f1;
+}
+.Login .inputs>div{
+    height: 37px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.Login .inputs>div i{
+    color: #e9203d;
+    width: 16px;
+    font-size: 16px;
+    float: left;
+    margin-top: 3px;
+}
+.Login .inputs>div input{
+    width: 60%;
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 16px;
+    outline: none;
+}
+.Login .inputs>div span{
+    color: #e9203d;
+    font-size: 16px;
+}
+.Login .inputs .btn{
+    width: 100%;
+    background-color: #e9203d;
+    color: #fff;
+    border: 1px solid #e9203d;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 0;
+}

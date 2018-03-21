@@ -1,0 +1,80 @@
+.User .Header{
+    height: 50px;
+    background-color: #e9203d;
+    color: #fff;
+    padding: 15px 10px;
+    text-align: center;
+    position: relative;
+}
+.User .Header a{
+    width: 16px;
+    height: 16px;
+    color: inherit;
+    position: absolute;
+    left: 10px;
+}
+.User .Header a i{
+    font-size: 16px;
+}
+.User .Header h1{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+}
+.User .user{
+    padding: 10px;
+    text-align: left;
+}
+.User .user p{
+    line-height: 1.5;
+    color: #666;
+    font-size: 16px;
+}
+.User .interval{
+    background-color: #f1f1f1;
+    height: 15px;
+}
+.User .order{
+    padding:10px;
+}
+.User .order h3{
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 10px;
+}
+.User .order .orderlist{
+    padding: 10px 0;
+    border-bottom: 1px solid #f1f1f1;
+    position: relative;
+    display: flex;
+}
+.User .order .orderlist>div img{
+    width: 120px;
+    height: 90px;
+}
+.User .order .orderlist .orderMes{
+    padding-left: 10px;
+}
+.User .order .orderlist .orderMes p{
+    color: #666;
+    display: block;
+    text-align: left;
+    line-height: 24px;
+    font-size: 16px;
+}
+.pingbtn{
+    display: inline-block;
+    width: 80px;
+    height: 32px;
+    text-align: center;
+    background-color: #e9203d;
+    color: #fff;
+    padding: 5px 0;
+    border: 0;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}

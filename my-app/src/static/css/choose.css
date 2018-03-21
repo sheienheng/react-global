@@ -1,0 +1,53 @@
+.Choose .Header{
+    height: 50px;
+    background-color: #e9203d;
+    color: #fff;
+    padding: 15px 10px;
+    text-align: center;
+    position: relative;
+}
+.Choose .Header a{
+    width: 16px;
+    height: 16px;
+    color: inherit;
+    position: absolute;
+    left: 10px;
+}
+.Choose .Header a i{
+    font-size: 16px;
+}
+.Choose .Header h1{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+}
+.Choose .city{
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+.Choose .cityList{
+    padding: 10px 15px 20px 15px;
+}
+.Choose .cityList h2{
+    font-size: 16px;
+    text-align: left;
+}
+.Choose .cityList ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Choose .cityList ul li{
+    width: 33.3%;
+}
+.Choose .cityList ul li span{
+    display: inline-block;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    line-height: 2;
+    color: #000;
+    margin-top: 15px;
+    width: 90%;
+    text-align: center;
+}

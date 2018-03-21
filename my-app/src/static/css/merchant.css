@@ -1,0 +1,128 @@
+.Merchant .Header{
+    height: 50px;
+    background-color: #e9203d;
+    color: #fff;
+    padding: 15px 10px;
+    text-align: center;
+    position: relative;
+}
+.Merchant .Header a{
+    width: 16px;
+    height: 16px;
+    color: inherit;
+    position: absolute;
+    left: 10px;
+}
+.Merchant .Header a i{
+    font-size: 16px;
+}
+.Merchant .Header h1{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+}
+.Merchant .merHome{
+    padding: 10px;
+}
+.Merchant .merHome .merShow{
+    width: 100%;
+    height: 115px;
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.Merchant .merHome .merShow div:first-child img{
+    width: 130px;
+    height: 100px;
+}
+.Merchant .merHome .merShow div:last-child{
+    width: calc(100% - 130px);
+    padding: 0 10px;
+    text-align: left;
+    font-size: 16px;
+}
+.Merchant .merHome .merShow div:last-child h1{
+    font-size: 20px;
+    color: #333;
+}
+.Merchant .merHome .merShow div:last-child .start{
+    color: #e9203d;
+    width: 45%;
+    display: inline-block;
+    margin: 10px 0;
+}
+.Merchant .merHome .merShow div:last-child .start i{
+    margin: 0 1.5px;
+}
+.Merchant .merHome .merShow div:last-child span{
+    color: #999;
+}
+.Merchant .merHome>p{
+    text-align: left;
+    color: #999;
+    line-height: 1.5;
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.Merchant .merHome .collect{
+    display: flex;
+    padding-top: 10px;
+}
+.Merchant .merHome .collect div{
+    width: 50%;
+    text-align: center;
+}
+.Merchant .merHome .collect div button{
+    font-size: 16px;
+    width: 100px;
+    background-color: #f1f1f1;
+    color: #666;
+    border: 1px solid #666;
+    padding: 5px 0;
+}
+.Merchant .interval{
+    width: 100%;
+    height: 20px;
+    background-color: #f1f1f1;
+}
+.Merchant .evaluate h2{
+    font-size: 18px;
+    padding: 5px 10px;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+}
+.Merchant .evaluate .appraise{
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+
+}
+.Merchant .evaluate .appraise .app-Mes{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.Merchant .evaluate .appraise .app-Mes div h3{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+}
+.Merchant .evaluate .appraise .app-Mes .start i{
+    color: #e9203d;
+    display: inline-block;
+    margin: 5px 2px;
+}
+.Merchant .evaluate .appraise .app-Mes p{
+    color: #999;
+    line-height: 1.5;
+}
+.Merchant .merHome .collect button{
+    outline: none;
+}
+.Merchant .merHome .collect .colorRed{
+    background-color: #e9203d;
+    border: none;
+    color: white;
+}
